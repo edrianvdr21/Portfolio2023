@@ -6,7 +6,7 @@ function App() {
   const showEmployee = true;
   const [role, setRole] = useState("Dev");
   return (
-    <>
+    <div className="App bg-red-30 text-left">
       <input type="text"
         onChange={(e) => setRole(e.target.value)}
       />
@@ -19,7 +19,7 @@ function App() {
       </>
       ) : <p>No employee</p>
       }
-    </>
+    </div>
   );
 }
 
