@@ -1,0 +1,20 @@
+install globally
+npm install -g create-react-app
+
+Check installation of npm
+npm -v
+
+Update npm
+npm install -g npm@latest
+
+Start the react app again
+cd "folder_name"
+npm Start
+
+Git
+git init
+git add .
+git config --global user.email "edrianvdr21@gmail.com"
+git config --global user.name "edrianvdr21"
+
+Install Tailwind
